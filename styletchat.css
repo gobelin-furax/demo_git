@@ -1,0 +1,80 @@
+@font-face 
+{ 
+    font-family: 'Heavydata';
+    src: url('polices/heavydata/heavy_data-webfont.eot') format('eot'),
+         url('polices/heavydata/heavy_data-webfont.woff') format('woff'),
+         url('polices/heavydata/heavy_data-webfont.ttf') format('truetype'),
+         url('polices/heavydata/heavy_data-webfont.svg') format('svg');
+}
+
+@font-face 
+{ 
+    font-family: 'Source';
+    src: url('polices/source/SourceSerifPro-Regular.otf') format('otf');        
+}
+
+h3, form label
+{
+    font-family: 'Heavydata', "Arial Black", Arial, serif;
+	font-weight: normal;
+}
+
+*
+{
+    font-family: 'Source', "Times New Roman", Arial, serif;
+}
+
+body
+{
+	background-color: gray;
+}
+
+h3
+{
+	margin-left: 15px;
+	text-decoration: underline;
+}
+
+#tchat
+{
+	display: inline-block;
+	position: fixed;
+	top: 8px;
+	left: 8px;
+	width: 30%;
+	border: 2px black solid;
+	vertical-align: top;
+}
+
+#barretitretchat
+{
+	border: 2px black solid;
+	text-align: center;
+	background-color: black;
+	color: white;
+}
+
+#fenetretchat
+{
+	border: 2px black solid;
+	text-align: left;
+	padding-bottom: 15px;
+	padding-top: 15px;
+	height: 500px;
+	background-color: silver;
+}
+
+#barreformtchat
+{
+	border: 2px black solid;
+	text-align: right;
+	padding-bottom: 15px;
+	padding-top: 15px;
+	background-color: black;
+	color: white;
+}
+
+#boutonposter
+{
+	text-align: center;
+}
